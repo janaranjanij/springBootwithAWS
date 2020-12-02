@@ -1,0 +1,29 @@
+Post url - http://localhost:10091/sqs/send
+
+Sample body -
+{
+    "id": 102,
+    "message": "Welcome to send and receive sqs queues"
+}
+
+
+Step 1: Create account in AWS (steps will be available in below link)
+https://www.netsurfingzone.com/aws/how-to-create-free-amazon-aws-account/
+
+step 2: Generate Access key Id and Secret Key
+https://www.netsurfingzone.com/aws/how-to-create-users-and-groups-in-aws/
+
+Step 3: Creating sqs queues in AWS
+https://www.netsurfingzone.com/aws/how-to-create-sqs-queue-in-aws/
+
+step 4: setting access key and secret id in environmental variables
+AWS_ACCESS_KEY_ID = *****************
+AWS_SECRET_ACCESS_KEY = *************************
+
+step 5: create folder .aws in C:\Users\USERNAME
+step 6: Create credentials.txt file in path C:\Users\USERNAME\.aws
+
+step 7: add the below lines in credentials.txt file
+[default]
+aws_access_key_id= ***************
+aws_secret_access_key= ******************
